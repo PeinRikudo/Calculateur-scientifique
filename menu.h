@@ -3,5 +3,6 @@
 
 void showMainMenu();
 int getMenuFromUser();
+void showSubMenuElectricity();
 
 #endif

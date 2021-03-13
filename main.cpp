@@ -3,5 +3,13 @@
 
 int main() {
 	showMainMenu();
-	getMenuFromUser();
+
+	if (getMenuFromUser() == 1) {
+		showSubMenuElectricity();
+
+		if (getMenuFromUser() == 1) {
+
+		}
+	}else
+		std::cout << "Enter the number corresponding to the chapter you want to view" << '\n';
 }
