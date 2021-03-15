@@ -5,5 +5,6 @@ void showMainMenu();
 int getMenuFromUser();
 void showSubMenuElectricity();
 void showBatteryLifeCalculator();
+void showOhmsLawCalculator();
 
 #endif

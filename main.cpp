@@ -3,14 +3,19 @@
 
 int main() {
 	showMainMenu();
+	int choiceMenu{ getMenuFromUser() };
 
-	if (getMenuFromUser() == 1) {
+	if (choiceMenu == 1) {
 		showSubMenuElectricity();
+		int choiceSubMenu{ getMenuFromUser() };
 
-		if (getMenuFromUser() == 1) {
+		if (choiceSubMenu == 1)
 			showBatteryLifeCalculator();
+		else if(choiceSubMenu == 2)
+			showOhmsLawCalculator();
 
-		}
 	}else
 		std::cout << "Enter the number corresponding to the chapter you want to view" << '\n';
+
+	return 0;
 }
