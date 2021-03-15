@@ -8,6 +8,7 @@ int main() {
 		showSubMenuElectricity();
 
 		if (getMenuFromUser() == 1) {
+			showBatteryLifeCalculator();
 
 		}
 	}else

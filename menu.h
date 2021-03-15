@@ -4,5 +4,6 @@
 void showMainMenu();
 int getMenuFromUser();
 void showSubMenuElectricity();
+void showBatteryLifeCalculator();
 
 #endif
